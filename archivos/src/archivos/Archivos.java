@@ -10,7 +10,6 @@ public class Archivos {
       int veces=nv.nextInt(10);
       for(int i=0;i<=veces;i++){
           int score=nv.nextInt(100000);
-          System.out.println();
           try{
               File puntajes= new File("Puntajes.txt");
               FileWriter datos= new FileWriter(puntajes.getAbsoluteFile(),true);
